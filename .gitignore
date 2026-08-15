@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+python/dist/
+.venv/
+python/.venv/
+
+# Local MCP configuration (copy from the example)
+.mcp.json
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and scratch files
+*.log
+*.out.log
+.tmp/

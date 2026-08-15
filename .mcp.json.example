@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ffxiv-minion-lua": {
+      "type": "stdio",
+      "command": "${CLAUDE_PROJECT_DIR:-.}/python/.venv/Scripts/python.exe",
+      "args": [
+        "-m",
+        "ffxiv_minion_mcp"
+      ]
+    }
+  }
+}

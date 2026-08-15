@@ -1,0 +1,6 @@
+[Module]
+Name=FFXIVMinionMCP
+Dependencies=minionlib
+Version=1
+Files=agent_bridge.lua
+Enabled=1
