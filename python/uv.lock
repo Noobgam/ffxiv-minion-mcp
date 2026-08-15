@@ -227,6 +227,7 @@ name = "ffxiv-minion-mcp"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "httpx" },
     { name = "mcp" },
     { name = "starlette" },
     { name = "uvicorn" },
@@ -241,6 +242,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
+    { name = "httpx", specifier = ">=0.27" },
     { name = "httpx", marker = "extra == 'test'", specifier = ">=0.27" },
     { name = "mcp", specifier = ">=1.9,<2" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=8.0" },
